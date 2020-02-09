@@ -10,6 +10,13 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.source_files = ['lib/**/*.{h,c,cc,hpp,cpp,cxx}', 'include/**/*.{h,c,cc,hpp,cpp,cxx}']
+  s.source_files = [
+            'lib/**/*.{h,c,cc,hpp,cpp,cxx}',
+            'include/**/*.{h,c,cc,hpp,cpp,cxx}'
+            ]
   s.header_mappings_dir = 'include/'
+  s.pod_target_xcconfig = {
+    'USE_HEADERMAP' => 'NO'
+  }
+
 end
