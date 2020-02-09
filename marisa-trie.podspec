@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = 'marisa-trie'
   s.ios.deployment_target = '8.0'
-  s.version = '0.2.5.1'
+  s.version = '0.2.5.2'
   s.license = 'MIT'
   s.summary = 'MARISA: Matching Algorithm with Recursively Implemented StorAge'
   s.homepage = 'https://github.com/tonyzhou/marisa-trie.git'
